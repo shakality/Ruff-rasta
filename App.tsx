@@ -92,8 +92,6 @@ function App() {
           </Routes>
         </main>
         <Footer />
-
-        {/* Persistent Audio Player UI - Now Functional */}
         <AudioPlayer />
       </div>
     </HashRouter>

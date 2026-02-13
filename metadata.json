@@ -1,7 +1,5 @@
 {
   "name": "Ruff Rasta Official",
   "description": "A professional, high-energy artist website for Ruff Rasta, featuring tour dates, music discography, and an AI-powered 'Vibe Oracle'.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
+  "requestFramePermissions": []
 }
