@@ -103,19 +103,29 @@ const HomePage = () => (
       </div>
     </section>
 
-    {/* SECTION: THE TRIBE (Minimalist CTA) */}
-    <section className="py-40 bg-black flex flex-col items-center justify-center text-center px-6 border-t border-white/5">
-      <h2 className="font-heading text-4xl md:text-5xl tracking-tighter mb-6 uppercase">JOIN THE TRIBE</h2>
-      <p className="text-zinc-600 text-[10px] tracking-[0.6em] uppercase mb-16 max-w-lg leading-relaxed">Exclusive vibrations delivered to your inbox.</p>
+    {/* SECTION: THE TRIBE (Refined Matching Color) */}
+    <section className="py-40 bg-black flex flex-col items-center justify-center text-center px-6 border-t border-white/5 relative overflow-hidden">
+      {/* Subtle Background Glow */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(220,38,38,0.05)_0%,_transparent_70%)] pointer-events-none"></div>
       
-      <form className="w-full max-w-md flex flex-col gap-8">
-        <input 
-          type="email" 
-          placeholder="ENTER EMAIL" 
-          className="bg-transparent border-b border-white/10 py-4 text-[10px] font-bold tracking-[0.4em] text-center focus:outline-none focus:border-red-600 transition-colors placeholder:text-zinc-800"
-        />
-        <button className="bg-white text-black px-12 py-4 text-[10px] font-black tracking-widest hover:bg-red-600 hover:text-white transition-all uppercase rounded-full">
-          SUBSCRIBE
+      <h2 className="font-heading text-4xl md:text-5xl tracking-tighter mb-6 uppercase">
+        JOIN THE <span className="gradient-text">TRIBE</span>
+      </h2>
+      <p className="text-zinc-500 text-[10px] tracking-[0.6em] uppercase mb-16 max-w-lg leading-relaxed relative z-10">
+        Exclusive vibrations delivered to your inbox.
+      </p>
+      
+      <form className="w-full max-w-md flex flex-col gap-8 relative z-10">
+        <div className="relative group">
+          <input 
+            type="email" 
+            placeholder="ENTER EMAIL" 
+            className="w-full bg-transparent border-b border-white/10 py-4 text-[10px] font-bold tracking-[0.4em] text-center focus:outline-none focus:border-red-600 transition-colors placeholder:text-zinc-800 uppercase"
+          />
+          <div className="absolute bottom-0 left-0 w-0 h-[1px] bg-red-600 transition-all duration-500 group-focus-within:w-full"></div>
+        </div>
+        <button className="bg-red-600 text-white px-12 py-4 text-[10px] font-black tracking-[0.2em] hover:bg-white hover:text-black transition-all uppercase rounded-full shadow-lg shadow-red-900/20">
+          SUBSCRIBE NOW
         </button>
       </form>
     </section>
@@ -136,7 +146,7 @@ const TourPage = () => (
 
 const MerchPage = () => (
   <div className="pt-24 min-h-screen bg-[#050505]">
-    <MerchGrid />
+    <MusicGrid />
   </div>
 );
 
