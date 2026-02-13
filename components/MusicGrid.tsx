@@ -47,9 +47,20 @@ const MusicGrid: React.FC = () => {
                 >
                   STREAM ON SPOTIFY
                 </a>
-                <button className="border border-white/10 text-white px-8 py-3 rounded-full font-bold tracking-widest text-[10px] hover:bg-white hover:text-black transition-all">
-                  BUY ON ITUNES
-                </button>
+                {featuredTrack.itunesUrl ? (
+                  <a 
+                    href={featuredTrack.itunesUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-white/10 text-white px-8 py-3 rounded-full font-bold tracking-widest text-[10px] hover:bg-white hover:text-black transition-all flex items-center justify-center"
+                  >
+                    BUY ON ITUNES
+                  </a>
+                ) : (
+                  <button className="border border-white/10 text-white px-8 py-3 rounded-full font-bold tracking-widest text-[10px] hover:bg-white hover:text-black transition-all">
+                    BUY ON ITUNES
+                  </button>
+                )}
               </div>
             </div>
           </div>

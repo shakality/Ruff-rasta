@@ -6,7 +6,8 @@ export const ALBUMS: Album[] = [
     title: '4DROAD', 
     year: '2022', 
     cover: 'https://zagaempire.com/wp-content/uploads/2021/08/RuffRasta-4DRoad-scaled.jpg',
-    spotifyUrl: 'https://open.spotify.com/track/3bGLulhmWdmG0uS5ZDy3Vc'
+    spotifyUrl: 'https://open.spotify.com/track/3bGLulhmWdmG0uS5ZDy3Vc',
+    itunesUrl: 'https://music.apple.com/gb/album/4droad-single/1583048139'
   },
 ];
 

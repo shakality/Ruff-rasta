@@ -4,6 +4,7 @@ export interface Album {
   year: string;
   cover: string;
   spotifyUrl?: string;
+  itunesUrl?: string;
 }
 
 export interface TourDate {
