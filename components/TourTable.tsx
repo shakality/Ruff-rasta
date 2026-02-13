@@ -8,7 +8,7 @@ const TourTable: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-xs font-bold tracking-[0.4em] text-red-600 mb-2 uppercase">On the Road</h2>
-          <h3 className="font-heading text-4xl md:text-6xl tracking-tighter">WORLD TOUR 2024</h3>
+          <h3 className="font-heading text-4xl md:text-6xl tracking-tighter">WORLD TOUR 2026</h3>
         </div>
 
         <div className="space-y-4">
