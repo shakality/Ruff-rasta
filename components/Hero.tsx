@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       {/* Artist Image - Right Corner */}
       <div className="absolute right-0 bottom-0 z-20 w-full h-full pointer-events-none flex items-end justify-end overflow-hidden">
         <img 
-          src="https://i.ibb.co/kT85cVH/Gemini-Generated-Image-p9c71np9c71np9c7-removebg.png" 
+          src="https://i.ibb.co/j9Y7GvLf/Photo-from-Chuditech-1-remove-background-com.png" 
           alt="Ruff Rasta" 
           className="h-[80%] md:h-[90%] object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)] opacity-0 animate-fade-in-up"
           style={{ animationFillMode: 'forwards' }}
